@@ -1,0 +1,95 @@
+#content {
+    position: relative;
+    height: 90vh;
+    margin-top: 2rem;
+    margin-left: 6rem;
+    margin-right: 4rem;
+    border-radius: 20px;
+    background-color: #46B0EB;
+}
+
+form{
+    margin-top: 5rem;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.labelscad{
+    display: block;
+    height: 90px;
+}
+
+.inputcad1{
+    width: 100vw;
+    max-width: 100%;
+    min-width: 10px;
+    height: 30px;
+    border: none;
+    border-radius: 10px;
+    background-color: #FCF8F8;
+}
+
+
+.inputcad2{
+    
+    width: 100vw;
+    max-width: 200px;
+    min-width: 100px;
+    height: 30px;
+    border: none;
+    border-radius: 10px;
+    background-color: #FCF8F8;
+}
+
+#carnum{
+    display: flex;
+    gap: 15%;    
+}
+
+
+#title{
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+#title h{
+    font-family: 'Arial';
+    font-weight: bold;
+    font-size: 30px;
+    margin-top: 35px;
+    color: #FFFF;
+}
+
+.titlesform{
+    font-family: 'Arial';
+    font-weight: bold;
+    font-size: 15px;
+    color: #FFFF;
+}
+
+#save{
+    width: 120px;
+    height: 35px;
+    background-color: #8FD5EB;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+    position: absolute;
+    bottom: 5%;
+    right: 5%;
+}
+
+#save div{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+#save h{
+    font-family: 'Arial';
+    font-weight: bold;
+    font-size: 18px;
+    margin-top: auto;
+    color: #000;
+}
