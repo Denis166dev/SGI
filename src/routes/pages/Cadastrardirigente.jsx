@@ -32,13 +32,14 @@ function Cadastrardirigente() {
                 </div>
 
             </form>
-
-            <button id="save">
-                <div>
-                <h>SALVAR</h>
-                <img src={iconsave} alt="icone salvar"/>
-                </div>
-            </button>
+            <div id="position_button">
+                <button id="save">
+                    <div>
+                        <h>SALVAR</h>
+                        <img src={iconsave} alt="icone salvar" />
+                    </div>
+                </button>
+            </div>
         </main >
     );
 };

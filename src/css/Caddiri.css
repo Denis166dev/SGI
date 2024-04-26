@@ -1,17 +1,20 @@
 #content {
-    position: relative;
-    height: 90vh;
-    margin-top: 2rem;
-    margin-left: 6rem;
-    margin-right: 4rem;
+    display: flex;
+    height: 75%;
+    width: 80%;
     border-radius: 20px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
     background-color: #46B0EB;
 }
 
 form{
-    margin-top: 5rem;
+    margin-top: 3rem;
     margin-left: 50px;
     margin-right: 50px;
+    width: 88%;
+    height: 80%;
 }
 
 .labelscad{
@@ -20,12 +23,13 @@ form{
 }
 
 .inputcad1{
-    width: 100vw;
+    width: 70vw;
     max-width: 100%;
     min-width: 10px;
     height: 30px;
     border: none;
     border-radius: 10px;
+    padding: 1rem;
     background-color: #FCF8F8;
 }
 
@@ -38,6 +42,7 @@ form{
     height: 30px;
     border: none;
     border-radius: 10px;
+    padding: 1rem;
     background-color: #FCF8F8;
 }
 
@@ -49,6 +54,7 @@ form{
 
 #title{
     position: relative;
+    top: 1rem;
     display: flex;
     justify-content: center;
 }
@@ -57,7 +63,6 @@ form{
     font-family: 'Arial';
     font-weight: bold;
     font-size: 30px;
-    margin-top: 35px;
     color: #FFFF;
 }
 
@@ -68,6 +73,16 @@ form{
     color: #FFFF;
 }
 
+#position_button{
+    position: relative;
+    bottom: 7%;
+    display: flex;
+    justify-content: flex-end;
+    width: 70vw;
+    max-width: 100%;
+    min-width: 10px;
+}
+
 #save{
     width: 120px;
     height: 35px;
@@ -75,9 +90,6 @@ form{
     border: none;
     cursor: pointer;
     border-radius: 10px;
-    position: absolute;
-    bottom: 5%;
-    right: 5%;
 }
 
 #save div{
@@ -93,3 +105,8 @@ form{
     margin-top: auto;
     color: #000;
 }
+
+#save:hover {
+    transform: scale(1.05);
+    transition: .2s;
+  }
