@@ -1,19 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import App from './pages/App';
-import reportWebVitals from './reportWebVitals';
+import Rotas from './routes/Rotas'
 
-function Root() {
-  return (
-    <>
-      <App />
-    </>
-  );
-}
 
-ReactDOM.render(
-  <Root />,
-  document.getElementById('root')
+ReactDOM.createRoot(document.getElementById('root')).render(
+	<React.StrictMode>
+		<Rotas />
+	</React.StrictMode>
 );
 
-reportWebVitals();
+

@@ -1,12 +1,12 @@
 import React, {  } from 'react';
 import { Button, Layout, theme } from 'antd';
 import { Link } from 'react-router-dom';
-import '../css/Botao.css';
+import '../../css/Botao.css';
 
-import listIcon from '../imagens/lista.png'
-import smsIcon from '../imagens/sms.png'
-import aeIcon from '../imagens/ae.png'
-import marcarIcon from '../imagens/marca.png'
+import listIcon from '../../images/lista.png'
+import smsIcon from '../../images/sms.png'
+import aeIcon from '../../images/ae.png'
+import marcarIcon from '../../images/marca.png'
 
 
 const { Content } = Layout;

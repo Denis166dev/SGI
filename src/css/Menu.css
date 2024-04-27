@@ -1,0 +1,119 @@
+:root {
+    --cor01: #c8e9ffc2;
+    --cor02: #86cfff;
+    --cor03hover: #86cfff5b;
+}
+
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* Navbar */
+#cabeçalho {
+    width: 100%;
+    height: 3rem;
+    background: var(--cor02);
+}
+
+#sidebar {
+    position: fixed;
+    display: block;
+    width: 4rem;
+    height: 100vh;
+    background: var(--cor02);
+}
+
+/* icons-navbar */
+.select__icons {
+    width: 4rem;
+    height: 100vh;
+    margin: 2rem 0px;
+    gap: 3rem;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+}
+
+.select__icons a{
+    text-decoration: none;
+    transition: .2s;
+}
+
+.select__icons a:hover {
+    transform: scale(1.05);
+}
+
+/* Main--artigo-do-site */
+#principal {
+    margin: 0;
+    display: grid;
+    grid-column-start: 4;
+    grid-column-end: 9;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: larger;
+}
+
+/* Main-Cards */
+.main__board {
+    width: 100%;
+    height: auto;
+    margin: 4rem 0 0 0;
+    gap: 5rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.board__cards:nth-child(1) {
+    width: 20rem;
+    height: 20rem;
+    padding: 2rem 1.5rem 0.75rem 1.5rem;
+    gap: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--cor01);
+    transition: .4s;
+}
+
+.board__cards:nth-child(2) {
+    width: 20rem;
+    height: 20rem;
+    padding: 2rem 3rem 0.75rem 3rem;
+    gap: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--cor01);
+    transition: .4s;
+}
+
+.board__cards h5 {
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    font-size: medium;
+    white-space: pre-line;
+}
+
+.board__cards:hover {
+    cursor: pointer;
+    transform: scale(1.02);
+    box-shadow: 5px 5px 10px var(--cor03hover);
+}
+
+#mainpai {
+    position: fixed;
+    display: flex;
+    left: 4rem;
+    top: 3rem;
+    width: 100%;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    margin: 0px auto;
+}

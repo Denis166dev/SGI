@@ -1,7 +1,7 @@
 import React from 'react';
 import { Layout, Menu, Table, Button, Dropdown, Space, Image, Modal } from 'antd';
-import editIcon from '../imagens/edit.png';
-import removeIcon from '../imagens/remove.png';
+import editIcon from '../../images/edit.png';
+import removeIcon from '../../images/remove.png';
 
 const { Content } = Layout;
 
