@@ -1,0 +1,78 @@
+#contentvisitante {
+    display: flex;
+    height: 75%;
+    width: 80%;
+    border-radius: 20px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #46B0EB;
+}
+
+.titlesforminserir{
+    font-family: 'Arial';
+    font-weight: bold;
+    font-size: 15px;
+    color: #FFFF;
+}
+
+#nomesx{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+#labelsx{
+    width: 18%;
+    display: flex;
+    gap: 5px;
+    justify-content: end;
+}
+
+#divmf{
+    display: flex;
+    gap: 5px;
+    align-items: flex-start;
+}
+
+.inputtexts{
+    width: 57vw;
+    max-width: 100%;
+    min-width: 10px;
+    height: 32px;
+    border: none;
+    border-radius: 10px;
+    padding: 1rem;
+    background-color: #FCF8F8;
+}
+
+.inputx{
+    border: none;
+    border-radius: 20px;
+}
+
+#tipo{
+    display: flex;
+    flex-direction: column;
+}
+
+#inputsnovonao{
+    display: flex;
+    width: 100%;
+    gap: 40px;
+}
+
+#lie{
+    display: flex;
+    flex-direction: column;
+}
+
+.labelsinserir{
+    margin-top: 1rem;
+}
+
+.checkboxs{
+    width: 15px;
+    height: 15px;
+    cursor: pointer;
+}
