@@ -76,3 +76,64 @@
     height: 15px;
     cursor: pointer;
 }
+
+/*Tela inserir nova escala*/
+
+#formmeses{
+    margin-top: 6rem;
+    margin-left: 50px;
+    margin-right: 50px;
+    width: 88%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#labelmeses{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+#meses{
+    width: 80%;
+    height: 2rem;
+    border: none;
+    border-radius: 20px;
+    background-color: #FCF8F8;
+}
+
+#proximo{
+    width: 120px;
+    height: 35px;
+    background-color: #8FD5EB;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+#proximo div{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+#proximo h{
+    font-family: 'Arial';
+    font-weight: bold;
+    font-size: 16px;
+    margin-top: auto;
+    color: #000;
+}
+
+#proximo:hover {
+    transform: scale(1.05);
+    transition: .2s;
+  }
+
+  #proximo img{
+    width: 17px;
+    height: 17px;
+  }
