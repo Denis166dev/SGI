@@ -1,70 +1,19 @@
-# Getting Started with Create React App
+# SGI (Sistema de Gerenciamento de Igreja) - Plataforma para Administração Eclesiástica
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+O projeto visa facilitar a gestão administrativa e de membresia em igrejas. Promovendo: organização cadastral, planejamento de escalas, acesso rápido a informações de membros e visitantes.
 
-## Available Scripts
+## Sobre o Projeto
 
-In the project directory, you can run:
+Em resposta à necessidade de organizar e otimizar a gestão de informações em comunidades eclesiásticas, e considerando a importância de um acompanhamento próximo de seus membros e visitantes, foi desenvolvido o projeto "SGI". Este consiste em um sistema Web para a liderança e administração da igreja, projetado para centralizar dados cadastrais e agendas. Com isso, busca-se facilitar o acesso à informação, melhorar a organização interna e otimizar o planejamento das atividades e escalas da igreja.
 
-### `npm start`
+## Funcionalidades - Projetadas
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+*   Cadastro e gerenciamento de dirigentes (membros, líderes, etc.)
+*   Cadastro e gerenciamento de visitantes
+*   Criação e visualização de escalas (cultos, ministérios, eventos)
+*   Consulta rápida de informações de visitantes
+*   Consulta rápida de informações de dirigentes
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Tecnologias Utilizadas
 
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+*    React
